@@ -1,0 +1,31 @@
+{
+  "name": "ChatGPT Batch Delete",
+  "description": "The feature OpenAI should add on ChatGPT website",
+  "version": "0.9",
+  "manifest_version": 3,
+  "permissions": [],
+  "action": {
+    "default_icon": {
+      "16": "/images/gpt-icon--16.png",
+      "32": "/images/gpt-icon--32.png",
+      "48": "/images/gpt-icon--48.png",
+      "128": "/images/gpt-icon--128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/gpt-icon--16.png",
+    "32": "/images/gpt-icon--32.png",
+    "48": "/images/gpt-icon--48.png",
+    "128": "/images/gpt-icon--128.png"
+  },
+  "host_permissions": [
+    "https://chatgpt.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

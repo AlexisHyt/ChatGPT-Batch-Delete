@@ -1,0 +1,16 @@
+.ha--batch-checkbox {
+  background-color: #666 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.ha--batch-checkbox:checked {
+  background-color: #03A9F4 !important;
+}
+
+#ha--deleteButton {
+  background: #F44336;
+  padding: 0.4em;
+  border-radius: 15px;
+  color: #fff;
+}
